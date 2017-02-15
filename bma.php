@@ -87,7 +87,6 @@ $password_list = file(__DIR__.'/inc/password.txt', FILE_IGNORE_NEW_LINES);
                //Passwaord match
                // /!\ It could be a false positive, the script is not stable yet
                else {
-                   echo $parse;
                    echo "$url - $pma_username:$value Found !\n";
                    exit;
                  }
