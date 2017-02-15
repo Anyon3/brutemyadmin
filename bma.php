@@ -84,7 +84,7 @@ $password_list = file(__DIR__.'/inc/password.txt', FILE_IGNORE_NEW_LINES);
                    echo "$url - $pma_username:$value denied\n";
                }
 
-               //Passwaord match
+               //Password match
                // /!\ It could be a false positive, the script is not stable yet
                else {
                    echo "$url - $pma_username:$value Found !\n";
