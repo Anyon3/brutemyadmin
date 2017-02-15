@@ -15,11 +15,11 @@ This script is made to be use in CLI
 
 Make sure the script have enough privilege to read / write the file cookie.txt
 
-`Add the target PhpMyAdmin root directory to the file inc/target.txt - 1 by line`
+`Add the list PhpMyAdmin root directory to the file inc/target.txt - 1 by line | Minimum 1`
 
-`Add the list of password to try to the file inc/password.txt - 1 by line`
+`Add the list of password to try to the file inc/password.txt - 1 by line | Minimum 1`
 
-`Add the list of username to try to the file inc/username.txt - 1 by line`
+`Add the list of username to try to the file inc/username.txt - 1 by line | Minimum 1`
 
 Extra
 ------------
