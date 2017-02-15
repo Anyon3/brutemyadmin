@@ -1,6 +1,8 @@
 BruteMyAdmin
 ------------
 
+Simple PhpMyAdmin bruteforcer
+
 Requirement
 ------------
 php cli (php7 or newer recommanded)
@@ -10,7 +12,9 @@ How to
 ------------
 
 Add the target PhpMyAdmin root directory to the file inc/target.txt - 1 by line
+
 Add the list of password to try to the file inc/password.txt - 1 by line
+
 Add the list of username to try to the file inc/username.txt - 1 by line
 
 Extra
